@@ -37,7 +37,7 @@ else:
             conn = st.connection("gsheets", type=GSheetsConnection)
             
             # Kendi tablo linkinizi buraya yapıştırın:
-            url = "https://docs.google.com/spreadsheets/d/SİZİN_TABLO_LİNKİNİZ"
+            url = "https://docs.google.com/spreadsheets/d/1NFi3sVnKedDwrtg6bCXKmIhmbROJ9nGbt3eEMJsxHbk/edit?gid=0#gid=0"
             
             # Mevcut veriyi oku
             df = conn.read(spreadsheet=url)
